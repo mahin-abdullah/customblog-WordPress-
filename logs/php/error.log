@@ -1,2 +1,4 @@
 [14-Nov-2020 11:15:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\new\Local Sites\mahinblog\app\public\wp-content\themes\mahinblog\functions.php on line 10
 [14-Nov-2020 12:10:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\new\Local Sites\mahinblog\app\public\wp-content\themes\mahinblog\header.php on line 40
+[14-Nov-2020 16:58:24 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\new\Local Sites\mahinblog\app\public\wp-content\themes\mahinblog\functions.php on line 8
+[14-Nov-2020 16:58:24 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\new\Local Sites\mahinblog\app\public\wp-content\themes\mahinblog\functions.php on line 8
