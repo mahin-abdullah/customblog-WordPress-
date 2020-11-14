@@ -1,4 +1,25 @@
-<?php 
+<?php
+
+  function mahinblog_theme_support() {
+    //adds dynamic title-tag support
+    add_theme_support('title-tag');
+    add_theme_support('custom-logo');
+  }
+  
+  add_action('after_setup_theme', 'mahinblog_theme_support');
+
+  function mahinblog_menus() {
+    $locations = array(
+      'primary' => "Desktop Primary Left Sidebar",
+      'footer' => "Footer Menu Items"
+    );
+
+    register_nav_menus($locations);
+  }
+
+  add_action('init', 'mahinblog_menus');
+
+
   function mahinblog_register_styles() {
 
     $version = wp_get_theme()->get( 'Version' );
